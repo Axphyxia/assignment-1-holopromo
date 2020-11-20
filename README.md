@@ -1,2 +1,2 @@
-# assignment-1-holosponsor
+# assignment-1-holopromo
 A website to promote a company called Hololive
