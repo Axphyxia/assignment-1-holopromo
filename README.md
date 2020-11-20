@@ -1,5 +1,5 @@
 # assignment-1-holopromo
-A website to promote a company called Hololive encouraging more people to join the Hololive community.
+A website to promote a company called Hololive to hopefully encourage more people to join the Hololive community.
 ## Design Process
 This website is mainly intended towards people who didn't know about hololive prior to this website
 and this website would hopefully give them enough insight to give watching hololive a try.
