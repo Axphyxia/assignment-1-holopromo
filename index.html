@@ -1,0 +1,774 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Hololive Promotion</title>
+
+<style>
+
+    body {
+  background-color: rgb(89, 214, 255);
+  margin:0;
+}
+
+.header{
+    padding:8%;
+    display:block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/hololivefestabanner - Copy.jpg")
+}
+.footer{
+    padding:10%
+}
+
+.logo{
+    background-repeat: no-repeat;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    background-color:white;
+    text-align:center
+}
+.yagoo{
+    padding-top:7%;
+    padding-left:14%;
+    padding-bottom:6%
+}
+.headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.2vw;
+    left:38%;
+    top:50%;
+    width:41.5%;
+    height:auto;
+}
+
+/*All the text paragraphs for the CEO section*/
+.ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.44vw;
+    left:38%;
+    top:58%;
+    padding:4px;
+    
+}
+
+/*CEO's twitter*/
+.ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:92%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+}
+
+.ytwitter a{
+    display:block;
+    text-align:center;
+    transition: all 0.3s ease;
+    color:rgb(89, 214, 255);
+}
+.ytwitter a:hover{
+    color:rgb(47, 186, 233);
+}
+
+/*First scaling
+@media only screen and (max-width: 1218px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.2vw;
+    left:38%;
+    top:36%;
+    width:41.5%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.44vw;
+    left:38%;
+    top:44%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:73%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Second scaling
+@media only screen and (max-width: 942px){
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:67%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Third scaling*/
+@media only screen and (max-width: 852px){
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:65%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Fourth scaling
+@media only screen and (max-width: 811px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.2vw;
+    left:38%;
+    top:29%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.44vw;
+    left:38%;
+    top:33%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:54%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Fifth scaling
+@media only screen and (max-width: 680px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.2vw;
+    left:38%;
+    top:29%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.30vw;
+    left:38%;
+    top:33%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:48%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*sixth scaling
+@media only screen and (max-width: 547px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.2vw;
+    left:38%;
+    top:24%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.24vw;
+    left:38%;
+    top:28%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:43%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Seventh scaling
+@media only screen and (max-width: 493px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.1vw;
+    left:38%;
+    top:24%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.20vw;
+    left:38%;
+    top:28%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:41%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Eight scaling
+@media only screen and (max-width: 493px) and (max-height:684px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.1vw;
+    left:38%;
+    top:26%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.20vw;
+    left:38%;
+    top:30%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:40%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+/*Ninth scaling
+@media only screen and (max-width: 493px) and (max-height:629px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.1vw;
+    left:38%;
+    top:29%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.20vw;
+    left:38%;
+    top:33%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:49%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}*/
+/*Ipad portrait*/
+@media only screen and (max-width: 768px) and (max-height:1024px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.1vw;
+    left:38%;
+    top:24%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.20vw;
+    left:38%;
+    top:28%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:40%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+
+/*ipad landscape*/
+@media only screen and (max-width: 1024px) and (max-height:768px){
+    .headtext{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color:white;
+    position:absolute;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:2.1vw;
+    left:38%;
+    top:39%;
+    width:41%;
+    height:auto;
+    }
+    .ypara{
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    background-color: white;
+    position:absolute;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:1.20vw;
+    left:38%;
+    top:45%;
+    padding:4px;
+    
+    }
+    .ytwitter{
+    text-align:center;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
+    position:absolute;
+    background:white;
+    color:rgb(89, 214, 255);
+    font-size:22px;
+    left:38%;
+    top:65%;
+    padding-left:9px;
+    padding-top:7px;
+    padding-right:9px;
+    padding-bottom:7px;
+    }
+}
+
+/*Social media bar css*/
+.socialbar{
+    position: fixed;
+    top:70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.socialbar a{
+    display:block;
+    text-align:center;
+    padding:16px;
+    transition: all 0.3s ease;
+    color:white;
+    font-size:20px;
+}
+/*Hovering functionality*/
+.socialbar a:hover {
+    background-color:white;
+    color:rgb(89, 214, 255);
+}
+.twitter{
+    background:#55ACEE;
+    color:white;
+}
+.facebook{
+    background:#3B5998;
+    color:white;
+}
+.youtube{
+    background:#BB0000;
+    color:white;
+}
+
+/*About me section css*/
+.about{
+    padding:8px;
+    background-color:white;
+}
+.abouth1{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size:37px;
+    justify-content:center;
+}
+.aboutp{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:22px;
+    justify-content:center;
+    padding-left: 20px;
+}
+/*About section videos of explanations by ceo css*/
+.about_video{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#scroll_to_top{
+    display:none;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    z-index:99;
+    font-size:14px;
+    border:none;
+    outline:none;
+    background-color:rgb(89, 214, 255);
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:4px;
+}
+#scroll_to_top:hover{
+    background-color:rgb(177, 236, 255);
+}
+.yvid{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:17px;
+    justify-content:space-around;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+/*CSS for the talent showcase section*/
+.talent_vids{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.talent_vids_para{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    letter-spacing:1px;
+    color:white;
+    font-size:22px;
+    justify-content:space-around;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <!--Responsive Social media bar-->
+<div class="socialbar">
+    <a href="https://www.facebook.com/hololivetv/" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="https://twitter.com/hololivetv" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+
+<!--Header image with alt in case of error-->
+<div>
+    <a href="https://beyondthestage.hololive.tv/"class="header"></a>
+</div>
+
+<!--Logo of the company-->
+<div class="logo">
+    <a href="https://en.hololive.tv/"> <img src="assets/Hololive_Logo - Copy.png" alt="missing image"></a>
+</div>
+
+<!--Introduction of CEO-->
+<div class="yagoo">
+    <img src="assets/260px-Yagoo.jpg" alt="missing image" style="border-style:solid;border-color:rgb(177, 236, 255);width:20%;height:auto;">
+    <h1 class="headtext">Motoaki Tanigo, President and CEO</h1>
+    <p class="ypara">
+        After graduating from the Faculty of Science and Technology of Keio University,
+        <br> he was in charge of producing gamesin partnership
+         with Sanrio Co. Ltd. at
+        <br> Imagineer Co. Ltd. 
+        and then oversaw the business of operating the official mobile
+        <br> website in partnership with 
+        TV stations and publishers. After participating in the
+        <br> launch of EC business at iStyle Co. Ltd. which is operated by the cosmetics<br>
+        word-of-mouth site @cosme, and the founding of mobile advertising company
+        <br> Interspire Co. Ltd. (currently United), Sun Zero Minute Co. Ltd. was founded
+        <br> and is Japan's first GPS compatible.
+        Developed O2O business centered smartphone
+        <br> app
+        "30min"
+        and sold it to UNITED Co. Ltd.
+    </p>
+    <p class="ytwitter" style="font-size:1.35vw;">
+        <a href="https://twitter.com/tanigox"><i class="fa fa-twitter"></i></a> 
+    </p>
+</div>
+
+<!--About the company-->
+<div class="about">
+    <br>
+    <h1 class="abouth1">What is hololive?</h1>
+    <br>
+    <h1 class="abouth1"><u>Vision</u></h1>
+    <!--Overall vision-->
+    <p class="aboutp">The market size of the Japanese animation industry exceeded 2 trillion yen in 2016. Among them,
+        <br> the overseas market has grown the most, reaching 767.6 billion yen. The main factor is the growth
+        <br> of anime distribution in bilibili in China and Crunchyroll in North America, and it can be seen that
+        <br> Japanese anime content is overwhelmingly evaluated in the world. We would like to launch a
+        <br> next-generation entertainment company that represents Japan by expanding cutting-edge
+        <br> entertainment such as VTubers to the world in the two-dimensional area of ​​Japanese specialty arts.</p>
+        <br>
+        <br>
+        <h1 class="abouth1">In-depth explantion by CEO</h1>
+        <br>
+        <!--Videos of the ceo explanation-->
+        <div class="about_video">
+         <video width="600" controls style="border-style: solid;border-color:rgb(177, 236, 255);border-width:7px;">
+             <source src="assets/Let's know Hololive more with YAGOO (part 1).mp4" type="video/mp4">
+         </video>
+         <video width="600" controls style="border-style: solid;border-color:rgb(177, 236, 255);border-width:7px;">
+             <source src="assets/Let's know Hololive more with YAGOO (part 2).mp4" type="video/mp4">
+         </video>
+        </div>
+        <div class="yvid">
+         <p style="text-align:center;">Title: Let's know Hololive more with YAGOO (part 1)
+             <br><br>
+             By: KirinukiChannel
+             <br><br>
+             <a href="https://www.youtube.com/watch?v=4JACxzBnk0Y&ab_channel=KirinukiChannel" style="color:rgb(89, 214, 255);">Link</a>
+         </p>
+         <p style="text-align:center;">Title: Let's know Hololive more with YAGOO (part 2)
+             <br><br>
+             By: KirinukiChannel
+             <br><br>
+             <a href="https://www.youtube.com/watch?v=BKf89qar7cI&ab_channel=KirinukiChannel" style="color:rgb(89, 214, 255);">Link</a>
+         </p>
+        </div>
+</div>
+<!--Showcasing Talent's works-->
+<div class="talent_work">
+    <br><br>
+    <h1 class="abouth1" style="color:white;">Activities</h1>
+    <br><br>
+    <div class= "talent_vids">
+     <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/wj9GO6F0pOM?wmode=transparent&amp;widgetid=1"></iframe>
+     <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/RrsGNMMghKM?wmode=transparent&amp;widgetid=2"></iframe>
+    </div>
+    <div class="talent_vids_para">
+        <p style= "text-align:center;"><strong>Holo no Graffiti!</strong>
+        <br><br>A Hololive original anime series that's updated
+        <br> weekly featuring short comedic sketches.</p>
+        <br><br>
+        <p style= "text-align:center;"><strong>Shiny Smily Story</strong>
+        <br><br>The first Hololive oficial song.</p>
+        <br><br>
+    </div>
+</div>
+
+<!--Scroll to top button-->
+<button onclick="topFunction()" id="scroll_to_top" title="Go to top">Up</button>
+
+<script>
+    //When user scrolls down, show button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scroll_to_top").style.display = "block";
+        } else {
+            document.getElementById("scroll_to_top").style.display = "none";
+        }
+    }
+    //When user clicks button scroll to top
+    function topFunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<!--Footer-->
+<div class="footer" style="background-color:#1e1d22;">
+    <p>hi</p>
+</div>
+
+</body>
+</html>
