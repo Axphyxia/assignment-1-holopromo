@@ -1,3 +1,4 @@
+### Patch 7.00 Final Patch
 # assignment-1-holopromo
 A website with the goal to promote a company called Hololive to hopefully encourage more people to join the Hololive community.
 I've made it so that, it is split into multiple sections all so to help the user to better understand what is hololive and to hopefully help convince them to give it a try.
